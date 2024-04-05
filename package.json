@@ -5,9 +5,6 @@
   "main": "index.js",
   "scripts": {
     "dev": "nodemon ./src/index.js",
-    "test1": "node ./toyProblems/testOne.js",
-    "test2": "node ./toyProblems/testTwo.js",
-    "test3": "node ./toyProblems/testThree.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
