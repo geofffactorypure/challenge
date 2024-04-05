@@ -1,3 +1,5 @@
+// THIS IS YOUR VALIDATOR, NOTHING SHOULD NEED EDITING HERE
+
 const validateUser = (req, res, next) => {
     const { user } = req.body
     if (!user) {

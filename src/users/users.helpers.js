@@ -1,3 +1,5 @@
+// THIS IS YOUR HELPER FUNCTION, NOTHING SHOULD NEED EDITING HERE
+
 const generateId = (idLength) => {
     let result = ""
     const alphanumericSet = "1234567890qwertyuiopasdfghjklzxcvbnm".split("")

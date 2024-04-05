@@ -17,6 +17,10 @@ const createUser = async (user) => {
         console.log("Database Error: User ID missing")
         return false
     }
+    if (!user.first_name || !user.last_name) {
+        console.log("User must include first_name and last_name properties")
+        return false
+    }
     console.log("Successfully created user: ", user)
     return true
 }
